@@ -1,4 +1,3 @@
-import { templateJitUrl } from "@angular/compiler";
 import { Component, Input, OnChanges, SimpleChanges } from "@angular/core";
 
 @Component ({
@@ -14,7 +13,7 @@ export class starComponent implements OnChanges{
     starWidth: number;
 
     ngOnChanges(): void {
-        this.starWidth = this.rating * 94 / 5;
+        this.starWidth = this.rating * 74 / 5;
     }
 
 }
